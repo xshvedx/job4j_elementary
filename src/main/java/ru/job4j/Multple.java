@@ -15,3 +15,5 @@ public class Multple {
         System.out.println("1*9=9");
     }
 }
+
+
