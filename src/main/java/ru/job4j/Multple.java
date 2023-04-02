@@ -1,7 +1,7 @@
 package ru.job4j;
 
 public class Multple {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
 
         System.out.println("1*1=1");
@@ -13,4 +13,5 @@ public class Multple {
         System.out.println("1*7=7");
         System.out.println("1*8=8");
         System.out.println("1*9=9");
+    }
 }
