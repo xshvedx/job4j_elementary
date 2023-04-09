@@ -7,17 +7,17 @@ public class Fit {
     }
 
     public static double womanWeight(short heightWoman) {
-        double rsl = (167 - 110) * 1.15;
+        double rsl = (161 - 110) * 1.15;
         return rsl;
     }
 
     public static void main(String[] args) {
         short heightMan = 187;
-        short heightWoman = 167;
+        short heightWoman = 161;
         double man = Fit.manWeight(heightMan);
         double woman = Fit.womanWeight(heightWoman);
         System.out.println("Man 187 is " + man);
-        System.out.println("Woman 167 is " + woman);
+        System.out.println("Woman 161 is " + woman);
     }
 
 }

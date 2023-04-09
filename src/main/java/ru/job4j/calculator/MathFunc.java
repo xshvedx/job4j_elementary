@@ -1,4 +1,4 @@
-package ru.job4j.calculator.ru.job4j.calculator.calculator;
+package ru.job4j.calculator;
 
 public class MathFunc {
     public static int func1(int x) {
