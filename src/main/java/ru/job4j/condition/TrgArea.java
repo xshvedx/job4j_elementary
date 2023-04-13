@@ -2,17 +2,13 @@ package ru.job4j.condition;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {
-        return (a + b + c) / 2;
-    }
-
-    public static double area(double a, double b, double c, double p) {
-        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+        double p = (a + b + c) / 2;
+        double s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+        return s;
     }
 
     public static void main(String[] args) {
-        double p = TrgArea.area(2, 2, 2);
-        System.out.println("area p = " + p);
-        double s = TrgArea.area(2, 2, 2, 3);
-        System.out.println("area s = " + s);
+        double rsl = TrgArea.area(2, 2, 2);
+        System.out.println("area(2, 2, 2) = " + rsl);
     }
     }
