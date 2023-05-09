@@ -45,6 +45,16 @@ public class ThreeMaxTest {
     }
 
     @Test
+    public void firstEqSecond() {
+        int first = 10;
+        int second = 10;
+        int third = 1;
+        int result = ThreeMax.max(first, second, third);
+        int expected = 10;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
     public void firstEqThird() {
         int first = 100;
         int second = 1;
@@ -65,7 +75,7 @@ public class ThreeMaxTest {
     }
 
     @Test
-    public void firstEqSecond() {
+    public void firstEqSecondTwo() {
         int first = 10;
         int second = 10;
         int third = 100;
