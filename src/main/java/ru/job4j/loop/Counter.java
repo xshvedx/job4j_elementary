@@ -4,17 +4,9 @@ public class Counter {
     public static int sum(int start, int finish) {
         int sum = 0;
         for (int a = start; a <= finish; a++) {
-            sum = sum + a;
+            sum += a;
         }
         return sum;
-    }
-
-    public static int sum1(int start, int finish) {
-        int sum1 = 0;
-        for (int a = start; a <= finish; a++) {
-            sum1 = sum1 - a;
-        }
-        return sum1;
     }
 
     public static int sumByEven(int start, int finish) {
