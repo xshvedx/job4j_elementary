@@ -13,7 +13,7 @@ public class Counter {
         int sum = 0;
         for (int a = start; a <= finish; a++) {
             if (a % 2 == 0) {
-                sum = sum + a;
+                sum += a;
             }
         }
         return sum;
