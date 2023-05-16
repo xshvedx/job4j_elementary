@@ -6,8 +6,8 @@ public class Factorial {
         for (int a = 2; a <= n; a++) {
             result *= a;
         }
-            return result;
-        }
+        return result;
+    }
 }
 
 
