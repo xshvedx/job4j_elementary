@@ -6,7 +6,7 @@ public class ArrayDefinition {
         nums[0] = "Max";
         nums[1] = "Ira";
         nums[2] = "Oleg";
-        nums[3] = "Platon";
+        nums[3] = "Roma";
         System.out.println(nums[0]);
         System.out.println(nums[1]);
         System.out.println(nums[2]);
